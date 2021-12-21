@@ -425,10 +425,10 @@ GameObject:
   m_Component:
   - component: {fileID: 7824515215808898971}
   - component: {fileID: 7824515215801367287}
-  - component: {fileID: 5755210740774319421}
-  - component: {fileID: 8871786935939560394}
   - component: {fileID: 7824515214661265884}
   - component: {fileID: 3089124333617777901}
+  - component: {fileID: 7251344079517591343}
+  - component: {fileID: 4571230679272010153}
   m_Layer: 0
   m_Name: Animal_Moose_01
   m_TagString: Untagged
@@ -479,32 +479,6 @@ Animator:
   m_HasTransformHierarchy: 0
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &5755210740774319421
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7824515215808623081}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 13c2911f5b8024e428ccc5468cbaa56f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &8871786935939560394
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7824515215808623081}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1965f1e7e2ee56d47a0027b562525784, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  topBound: 30
-  lowerBound: -10
 --- !u!114 &7824515214661265884
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -531,6 +505,30 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.12709635, y: 0.4483915, z: 0.44950438}
   m_Center: {x: 0.003045169, y: 0.21342096, z: 0.061661527}
+--- !u!114 &7251344079517591343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7824515215808623081}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c52ee72091692143869a36cdefe1fd7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &4571230679272010153
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7824515215808623081}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81e62e9a8a22fac478a927ce940e28f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7824515215808628859
 GameObject:
   m_ObjectHideFlags: 0
